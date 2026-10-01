@@ -1,0 +1,11 @@
+input("XOR with 0 keeps the munber.enter")
+print("5^0=",5^0)
+print("9^0=",9^0)
+input("XOR with itself geives 0,enter")
+print("5^5=",5^5)
+print("9^9=",9^9)
+
+n=int(input("Enter a number(try 6,11):"))
+guess = input("what is 3^ "+str(n)+"^3")
+input("XOR cancels -3 appears twice so it disappears.press enter")
+print("3 ^",n,"^3=",3^n^3,"yours guess:",guess)
